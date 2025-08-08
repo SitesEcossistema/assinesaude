@@ -4,6 +4,7 @@ import { Search, Heart, User, Menu, X } from 'lucide-react'
 import heroImage from './assets/hero-image.png'
 import professionalsImage from './assets/professionals.jpg'
 import veterinaryImage from './assets/veterinary.jpg'
+import assinesaudeLogo from './assets/assinesaude_logo.png' // Importando o logotipo
 import './App.css'
 
 function App() {
@@ -17,9 +18,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="text-2xl font-bold text-green-600">
-                AssineSaúde
-              </div>
+              <img src={assinesaudeLogo} alt="AssineSaúde Logo" className="h-8" /> {/* Usando o logotipo */}
             </div>
 
             {/* Desktop Navigation */}
@@ -243,7 +242,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <div className="text-2xl font-bold text-green-400 mb-4">AssineSaúde</div>
+              <img src={assinesaudeLogo} alt="AssineSaúde Logo" className="h-8 mb-4" /> {/* Usando o logotipo no footer */}
               <p className="text-gray-400">
                 Conectando você aos melhores profissionais de saúde
               </p>
