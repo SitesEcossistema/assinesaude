@@ -1,0 +1,11 @@
+# Assets Directory
+
+Este diretório contém os assets do projeto AssineSaúde:
+
+- assinesaude_logo.png - Logotipo principal
+- hero-image.png - Imagem principal da homepage
+- professionals.jpg - Imagem dos profissionais
+- veterinary.jpg - Imagem veterinária
+
+Para integração completa, substitua estes arquivos pelos assets reais do Figma.
+

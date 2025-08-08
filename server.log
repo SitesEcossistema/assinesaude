@@ -1,0 +1,10 @@
+nohup: ignoring input
+
+> assinesaude@0.0.0 dev
+> vite --host 0.0.0.0 --port 3000
+
+
+  VITE v6.3.5  ready in 513 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://169.254.0.21:3000/
